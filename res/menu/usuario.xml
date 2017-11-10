@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.xe.activity.UsuarioActivity" >
+
+    <item 
+        android:id="@+id/action_tela_inicial"
+        android:orderInCategory="100"
+        android:title="@string/action_tela_inicial"
+        />
+    
+    <item 
+        android:id="@+id/action_categorias"
+        android:orderInCategory="100"
+        android:title="@string/action_categorias"
+        />
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    
+    <item 
+        android:id="@+id/action_sair"
+        android:orderInCategory="100"
+        android:title="@string/action_sair" 
+        />
+
+</menu>

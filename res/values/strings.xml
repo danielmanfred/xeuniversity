@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Xé UFRN</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_categoria">CategoriaActivity</string>
+    <string name="title_activity_lista_categorias">Lista de materiais</string>
+
+    <!-- Activity Login -->
+    <string name="title_activity_login">Login</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="login">Entrar</string>
+    <string name="nao_tem_cadastro">Não tem cadastro?</string>
+    <string name="clique_aqui">Clique aqui</string>
+    <string name="title_activity_cadastro_usuario">Tela de cadastro</string>
+    <string name="title_activity_usuario">Perfil do usuário</string>
+
+    <!-- Itens Menu -->
+    <string name="action_sair">Sair</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_tela_inicial">Tela inicial</string>
+    <string name="action_categorias">Categorias</string>
+    <string name="title_activity_lista_computacao">Materiais para Computação</string>
+    <string name="title_activity_lista_farmacia">Materiais para Farmácia</string>
+    <string name="title_activity_lista_medicina">Materiais para Medicina</string>
+    <string name="action_perfil">Voltar pra tela do usuário</string>
+    <string name="title_activity_farmacia">FarmaciaActivity</string>
+
+</resources>

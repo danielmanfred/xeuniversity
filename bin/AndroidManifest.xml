@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xe.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoxe"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListaMateriaisActivity" >
+        </activity>
+        <activity android:name=".MaterialActivity" >
+        </activity>
+        <activity
+            android:name=".CategoriaActivity"
+            android:label="@string/title_activity_categoria" >
+        </activity>
+        <activity
+            android:name=".ListaCategoriasActivity"
+            android:label="@string/title_activity_lista_categorias" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".CadastroUsuarioActivity"
+            android:label="@string/title_activity_cadastro_usuario" >
+        </activity>
+        <activity
+            android:name=".UsuarioActivity"
+            android:label="@string/title_activity_usuario" >
+        </activity>
+        <activity
+            android:name=".ListaComputacaoActivity"
+            android:label="@string/title_activity_lista_computacao" >
+        </activity>
+        <activity
+            android:name=".ListaFarmaciaActivity"
+            android:label="@string/title_activity_lista_farmacia" >
+        </activity>
+        <activity
+            android:name=".ListaMedicinaActivity"
+            android:label="@string/title_activity_lista_medicina" >
+        </activity>
+        <activity
+            android:name=".FarmaciaActivity"
+            android:label="@string/title_activity_farmacia" >
+        </activity>
+    </application>
+
+</manifest>
